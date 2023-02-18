@@ -1,16 +1,12 @@
 spring:
-  mvc:
-    hiddenmethod:
-      filter:
-        enabled: true
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    username: root
-    password: 123456
+    username: vhrdev
+    password: password
     url: jdbc:mysql://localhost:3306/vhr?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
   rabbitmq:
-    username: guest
-    password: guest
+    username: zzz
+    password: zzz
     host: 127.0.0.1
     publisher-confirms: true
     publisher-returns: true
@@ -18,7 +14,7 @@ spring:
     host: 127.0.0.1
     database: 0
     port: 6379
-    password: 123456
+    password: 5628
   cache:
     cache-names: menus_cache
 server:
