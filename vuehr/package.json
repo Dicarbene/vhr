@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -12,7 +12,9 @@
     "element-ui": "^2.12.0",
     "font-awesome": "^4.7.0",
     "vue": "^2.6.10",
+    "vue-3d-model": "^1.4.1",
     "vue-router": "^3.0.3",
+    "vuelayers": "^0.12.6",
     "vuex": "^3.1.1"
   },
   "devDependencies": {
