@@ -51,6 +51,8 @@ import {
     Switch
 } from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import Vuelayers from 'vuelayers'
+import { BingmapsSource } from 'vuelayers'
 
 Vue.prototype.$ELEMENT = {size: 'small', zIndex: 3000};
 Vue.use(Switch);
@@ -97,6 +99,8 @@ Vue.use(Icon);
 Vue.use(Select);
 Vue.use(Form);
 Vue.use(Tag);
+Vue.use(Vuelayers);
+Vue.use(BingmapsSource);
 Vue.prototype.$alert = MessageBox.alert
 Vue.prototype.$confirm = MessageBox.confirm
 
