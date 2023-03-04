@@ -4,8 +4,7 @@
       <el-button icon="el-icon-plus" size="small" type="primary" @click="showAddMap">添加</el-button>
     </div>
     <div class="mapMain">
-      <el-table :data="maps" border @selection-change="handleSelectionChange" size="small" stripe style="width:
-       70%">
+      <el-table :data="maps" border @selection-change="handleSelectionChange" size="small" stripe style="width:70%">
         <el-table-column type="selection" width="55"></el-table-column>
         <el-table-column prop="id" label="编号" width="55"></el-table-column>
         <el-table-column prop="name" label="地区" width="180">
